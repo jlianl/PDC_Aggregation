@@ -1,0 +1,9 @@
+; ----
+; Built itp for K.mol2
+;    by user vzoete     Sun Aug 22 16:25:59 UTC 2021
+; ----
+;
+
+[ atomtypes ]
+; name  at.num  mass     charge  ptype     sigma       epsilon
+  K     19      39.10    0.0000  A         4.73602e-01  1.37235e-03
