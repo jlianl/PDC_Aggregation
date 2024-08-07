@@ -1,0 +1,10 @@
+; ---- 
+; Built itp for CS.mol2 
+;    by user vzoete     Sun Aug 22 16:25:59 UTC 2021 
+; ---- 
+;
+
+[ atomtypes ] 
+; name  at.num  mass     charge  ptype     sigma        epsilon 
+  CS    55      132.91   0.0000  A         6.04920e-01  3.37230e-04
+
