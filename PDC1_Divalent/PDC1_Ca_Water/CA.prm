@@ -1,0 +1,10 @@
+; ---- 
+; Built itp for NA.mol2 
+;    by user vzoete     Sun Aug 22 16:25:59 UTC 2021 
+; ---- 
+;
+
+[ atomtypes ] 
+; name  at.num  mass     charge  ptype     C            A
+  CA    12      24.305   0.0000  A         9.9200E-04	6.0419E-07
+
