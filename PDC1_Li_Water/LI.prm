@@ -1,9 +1,0 @@
-; ----
-; Built itp for Li.mol2
-;    by user vzoete     Sun Aug 22 16:41:59 UTC 2021
-; ----
-;
-
-[ atomtypes ]
-; name   at.num  mass     charge  ptype    sigma        epsilon
-  LI     3       6.94     0.0000  A        2.02590e-01  7.65672e-02
