@@ -1,0 +1,26 @@
+; polymer_solvent_equil.top
+; This topology is designed to equilibrate solvents with polymer
+; VARIABLES:
+;   PDC_ion <-- polymer name
+;   Water <-- solvent name
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; PARAMETER FILES
+#include "Water.prm"
+#include "product_PDC.prm"
+
+; ITP FILES
+#include "product_PDC.itp"
+#include "Water.itp"
+
+
+[ system ]
+ PDC_ion in Water mixtures
+
+[ molecules ]
+; Compound        nmols
+PDC         100
+H2O         6246
