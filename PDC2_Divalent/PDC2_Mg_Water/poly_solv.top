@@ -1,0 +1,71 @@
+; polymer_solvent_equil.top
+; This topology is designed to equilibrate solvents with polymer
+; VARIABLES:
+;   PDC_ion <-- polymer name
+;   Water <-- solvent name
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               1               yes             0.5     0.8333
+
+; PARAMETER FILES
+#include "MG.prm"
+#include "Water.prm"
+#include "PDC_ion.prm"
+
+
+
+[ nonbond_params ]
+; i     j       func    C               A
+MG	o	1	0.000483142	2.1036E-07
+MG	oh	1	0.000542539	2.6501E-07
+MG	c	1	0.000490267	3.38486E-07
+MG	cc	1	0.000490267	3.38486E-07
+MG	cd	1	0.000490267	3.38486E-07
+MG	ho	1	0	        0
+MG	os	1	0.000454039	2.06484E-07
+MG	ha	1	8.60347E-05	2.49589E-08
+o	oh	1	0.002632981	1.97066E-06
+o	c	1	0.002324905	2.40326E-06
+o	cc	1	0.002324905	2.40326E-06
+o	cd	1	0.002324905	2.40326E-06
+o	ho	1	0	        0
+o	os	1	0.002214383	1.55067E-06
+o	ha	1	0.000433381	1.99955E-07
+oh	c	1	0.002571074	2.93633E-06
+oh	cc	1	0.002571074	2.93633E-06
+oh	cd	1	0.002571074	2.93633E-06
+oh	ho	1	0	        0
+oh	os	1	0.00246513	1.91991E-06
+oh	ha	1	0.000486128	2.51351E-07
+c	cc	1	0.002222136	3.43077E-06
+c	cd	1	0.002222136	3.43077E-06
+c	ho	1	0	        0
+c	os	1	0.002172176	2.33166E-06
+c	ha	1	0.000437899	3.19008E-07
+cc	cd	1	0.002222136	3.43077E-06
+cc	ho	1	0	        0
+cc	os	1	0.002172176	2.33166E-06
+cc	ha	1	0.000437899	3.19008E-07
+cd	ho	1	0	        0
+cd	os	1	0.002172176	2.33166E-06
+cd	ha	1	0.000437899	3.19008E-07
+ho	os	1	0	        0
+ho	ha	1	0	        0
+os	ha	1	0.000407106	1.96107E-07
+
+
+; ITP FILES
+#include "Water.itp"
+#include "MG.itp"
+#include "PDC_ion.itp"
+
+
+[ system ]
+ PDC_ion in Water mixtures
+
+[ molecules ]
+; Compound        nmols
+MG          100
+PDI               100
+H2O         6140

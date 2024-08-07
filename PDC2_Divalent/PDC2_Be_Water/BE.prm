@@ -1,0 +1,11 @@
+; ---- 
+; Built itp for BE.mol2 
+;    by user vzoete     Sun Aug 22 16:25:59 UTC 2021 
+; ---- 
+;
+
+[ atomtypes ] 
+; name  at.num  mass     charge  ptype     C            A 
+  BE    4       9.01     0.0     A         1.9684E-06	1.9284E-10
+
+

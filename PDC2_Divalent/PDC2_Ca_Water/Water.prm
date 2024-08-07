@@ -1,0 +1,6 @@
+; H2O_GMX.itp created by acpype (v: 2020-10-24T12:16:34CEST) on Wed Nov 11 23:24:08 2020
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype  C             A             Amb
+ oh       oh          0.00000  0.00000   A     2.9277E-03    2.4342E-06 ; 1.72  0.2104
+ ho       ho          0.00000  0.00000   A     0.00000e+00   0.00000e+00 ; 0.00  0.000
