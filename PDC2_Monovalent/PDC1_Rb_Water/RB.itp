@@ -1,7 +1,0 @@
-[ moleculetype ]
-; molname       nrexcl
-RB              1
-
-[ atoms ]
-; id    at type         res nr  residu name     at name  cg nr  charge
-1       RB              1       RB              RB       1      1.00000

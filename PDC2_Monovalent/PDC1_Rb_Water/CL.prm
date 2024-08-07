@@ -1,9 +1,0 @@
-; ---- 
-; Built itp for CL.mol2 
-;    by user vzoete     Sun Aug 22 16:41:59 UTC 2021 
-; ---- 
-;
-
-[ atomtypes ] 
-; name   at.num  mass     charge  ptype    sigma        epsilon 
-  CL     17      35.45    0.0     A        4.40104e-01  4.18400e-01
